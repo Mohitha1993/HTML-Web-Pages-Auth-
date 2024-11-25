@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <h3> Welcome, Enter the details of the login </h3>
+
+    <form action="" method="get">
+
+        <img src="images/login.jpg" alt="Login" width="64" height="64">
+
+        <br>
+
+        <b>Enter your username</b>
+
+        <br>
+
+        <input type = "text" name = "txtEmail" placeholder="john@abc.com" required>
+
+        <br>
+
+        <b>
+
+        <b>Enter your Password</b>
+
+        <br>
+
+        <input type = "password" name = "txtPasswd" placeholder="minimum of 6 characters" required>
+
+        <b>
+
+        <br>
+
+        <input type = "submit" value = "Login">
+
+        <br>
+
+        <a href='register.html'>New User? register here </a>
+
+    </form>  
+
+   
+
+</body>
+
+</html>
